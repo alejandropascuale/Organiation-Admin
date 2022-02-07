@@ -24,7 +24,7 @@ export default function TopBar() {
           <div className="topBarIconsContainer">
             <SettingsIcon />
           </div>
-          <img src="" alt="" className="topAvatar" />
+          <img src="https://actiserver.com/wp-content/uploads/avatar-1.png" alt="avatar-img" className="topAvatar" />
         </div>
       </div>
     </div>
