@@ -1,11 +1,31 @@
-import React from 'react'
+import React from 'react';
+import './TopBar.css';
+
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import LanguageIcon from '@mui/icons-material/Language';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 export default function TopBar() {
   return (
     <div className='topBar'>
-      <div className="topBarWarapper">
-        <div className="topLeft">Left</div>
-        <div className="topRight">Right</div>
+      <div className="topBarWrapper">
+        <div className="topLeft">
+          <span className="logo">Organization Admin</span>
+        </div>
+        <div className="topRight">
+          <div className="topBarIconsContainer">
+            <NotificationsNoneIcon />
+            <span className="topIconBadge">2</span>
+          </div>
+          <div className="topBarIconsContainer">
+            <LanguageIcon />
+            <span className="topIconBadge">2</span>
+          </div>
+          <div className="topBarIconsContainer">
+            <SettingsIcon />
+          </div>
+          <img src="" alt="" className="topAvatar" />
+        </div>
       </div>
     </div>
   )
