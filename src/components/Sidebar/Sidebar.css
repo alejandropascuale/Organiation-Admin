@@ -30,3 +30,7 @@
 .sidebarListItem.active, .sidebarListItem:hover {
     background-color: rgb(228, 228, 250);
 }
+.sidebarIcon {
+    margin-right: 5px;
+    font-size: 20px !important;
+}
