@@ -1,5 +1,6 @@
 import './UserList.css';
 import { DataGrid } from '@mui/x-data-grid';
+import { DeleteOutline } from '@mui/icons-material'
 
 export default function UserList() {
 
@@ -24,6 +25,19 @@ export default function UserList() {
             headerName: 'Transaction volume',
             width: 160,
         },
+        {
+            field: 'action',
+            headerName: 'Action',
+            width: 150,
+            renderCell: (params) => {
+                return (
+                    <>
+                        <button className="userListEdit">Edit</button>
+                        <DeleteOutline className='userListDelete' />
+                    </>
+                )
+            }
+        }
     ];
 
     const rows = [
@@ -79,9 +93,10 @@ export default function UserList() {
       <DataGrid
         rows={rows}
         columns={columns}
-        pageSize={5}
+        pageSize={8}
         rowsPerPageOptions={[5]}
         checkboxSelection
+        disableSelectionOnClick
       />
     </div>
   )
