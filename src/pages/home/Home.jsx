@@ -4,6 +4,7 @@ import './Home.css'
 import { userData } from '../../DummyData';
 import WidgetSm from '../../components/widgetSm/WidgetSm';
 import WidgetLg from '../../components/widgetLg/WidgetLg';
+import UserList from '../userList/UserList';
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="homeWidgets">
         <WidgetSm />
         <WidgetLg />
+        <UserList />
       </div>
     </div>
   )
