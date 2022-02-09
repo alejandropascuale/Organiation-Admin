@@ -2,6 +2,7 @@ import './UserList.css';
 import { DataGrid } from '@mui/x-data-grid';
 import { DeleteOutline } from '@mui/icons-material';
 import { userRows } from '../../DummyData';
+import { Link } from 'react-router-dom';
 
 export default function UserList() {
 
@@ -33,7 +34,9 @@ export default function UserList() {
             renderCell: (params) => {
                 return (
                     <>
-                        <button className="userListEdit">Edit</button>
+                        <Link to={`/user/${params.row.id}`}>
+                            <button className="userListEdit">Edit</button>
+                        </Link>
                         <DeleteOutline className='userListDelete' />
                     </>
                 )
