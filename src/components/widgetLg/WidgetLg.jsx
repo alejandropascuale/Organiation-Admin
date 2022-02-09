@@ -22,48 +22,54 @@ export default function WidgetLg() {
               src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-04/shutterstockyulia_mayorova.jpg?itok=Kkr_Nqk5" 
               alt="" 
               className="widgetLgImg" />
-              <span className="widgetLgName">Susan Carol</span>
-              <td className="widgetLgDate">2 Jun 2021</td>
-              <td className="widgetLgAmmount">$122.00</td>
-              <td className="widgetLgStatus">
-                <Button type='Approved' />
-              </td>
+            <span className="widgetLgName">Susan Carol</span>
           </td>
+          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgAmmount">$122.00</td>
+          <td className="widgetLgStatus">
+            <Button type='Approved' />
+          </td>
+        </tr>
+        <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img 
               src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-04/shutterstockyulia_mayorova.jpg?itok=Kkr_Nqk5" 
               alt="" 
               className="widgetLgImg" />
-              <span className="widgetLgName">Susan Carol</span>
-              <td className="widgetLgDate">2 Jun 2021</td>
-              <td className="widgetLgAmmount">$122.00</td>
-              <td className="widgetLgStatus">
-                <Button type='Declined' />
-              </td>
+            <span className="widgetLgName">Susan Carol</span>
           </td>
+          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgAmmount">$122.00</td>
+          <td className="widgetLgStatus">
+            <Button type='Declined' />
+          </td>
+        </tr>
+        <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img 
               src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-04/shutterstockyulia_mayorova.jpg?itok=Kkr_Nqk5" 
               alt="" 
               className="widgetLgImg" />
-              <span className="widgetLgName">Susan Carol</span>
-              <td className="widgetLgDate">2 Jun 2021</td>
-              <td className="widgetLgAmmount">$122.00</td>
-              <td className="widgetLgStatus">
-                <Button type='Pending' />
-              </td>
+            <span className="widgetLgName">Susan Carol</span>
           </td>
+          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgAmmount">$122.00</td>
+          <td className="widgetLgStatus">
+            <Button type='Pending' />
+          </td>
+        </tr>
+        <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img 
               src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2018-04/shutterstockyulia_mayorova.jpg?itok=Kkr_Nqk5" 
               alt="" 
               className="widgetLgImg" />
-              <span className="widgetLgName">Susan Carol</span>
-              <td className="widgetLgDate">2 Jun 2021</td>
-              <td className="widgetLgAmmount">$122.00</td>
-              <td className="widgetLgStatus">
-                <Button type='Approved' />
-              </td>
+            <span className="widgetLgName">Susan Carol</span>
+          </td>
+          <td className="widgetLgDate">2 Jun 2021</td>
+          <td className="widgetLgAmmount">$122.00</td>
+          <td className="widgetLgStatus">
+            <Button type='Approved' />
           </td>
         </tr>
       </table>
