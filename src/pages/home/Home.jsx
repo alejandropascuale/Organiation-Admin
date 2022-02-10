@@ -20,7 +20,6 @@ export default function Home() {
       <div className="homeWidgets">
         <WidgetSm />
         <WidgetLg />
-        <UserList />
       </div>
     </div>
   )
