@@ -54,19 +54,19 @@ export default function Product() {
                   <label>In Stock</label>
                   <select name="inStock" id="inStock">
                       <option value="yes">Yes</option>
-                      <option value="no">no</option>
+                      <option value="no">No</option>
                   </select>
                   <label>Active</label>
                   <select name="active" id="active">
                       <option value="yes">Yes</option>
-                      <option value="no">no</option>
+                      <option value="no">No</option>
                   </select>
               </div>
               <div className="productFormRight">
                   <div className="productUpload">
                       <img src="https://images.fravega.com/f300/3d8ccf187c48d7971cd2b237fbb25bfd.jpg" alt="" className="productUploadImg" />
                       <label for='file'>
-                          <Publish />
+                          <Publish className='productUploadIcon' />
                       </label>
                       <input type="file" name="file" id="file" style={{ display: "none" }} />
                   </div>
