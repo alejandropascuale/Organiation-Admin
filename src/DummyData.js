@@ -131,3 +131,18 @@ export const productsRows = [{id:1,name:"Ipad Air 8",img:"https://robohash.org/v
 {id:8,name:"iMac 24''",img:"https://robohash.org/involuptatemreiciendis.png?size=50x50&set=set1",stock:97,status:"active",price:"188.31"},
 {id:9,name:"Apple Tags",img:"https://robohash.org/voluptatumrepellatnesciunt.png?size=50x50&set=set1",stock:63,status:"active",price:"371.09"},
 {id:10,name:"Homepod",img:"https://robohash.org/estteneturvelit.png?size=50x50&set=set1",stock:45,status:"active",price:"274.83"}]
+
+export const productData = [
+  {
+    name: 'Ene',
+    'Sales': 4000,
+  },
+  {
+    name: 'Feb',
+    'Sales': 3000,
+  },
+  {
+    name: 'Mar',
+    'Sales': 2000,
+  },
+];
