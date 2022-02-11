@@ -1,5 +1,6 @@
 .newUser {
     flex: 4;
+    margin-left: 50px;
 }
 .newUserForm {
     display: flex;
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 .newUserItem>label {
     margin-bottom: 10px;
@@ -38,6 +39,7 @@
 }
 .newUserButton {
     width: 200px;
+    height: 40px;
     border: none;
     background-color: darkblue;
     color: white;

@@ -4,7 +4,7 @@ export default function NewUser() {
   return (
     <div className='newUser'>
       <h1 className="newUsertitle">New User</h1>
-      <form action="" className="newUserForm">
+      <form action="/newUser" method='POST' className="newUserForm">
           <div className="newUserItem">
               <label>Username</label>
               <input type="text" placeholder='jonsnow' name="" id="" />
